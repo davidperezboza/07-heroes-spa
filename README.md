@@ -2,7 +2,7 @@
 
 Proyecto de prueba curso 
 React: De cero a experto ( Hooks y MERN )
-Impartido por Fernando Herrera
+Impartido por Fernando Herrera p
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
