@@ -5,10 +5,11 @@ import { AuthContext } from '../../auth/context';
 
 export const Navbar = () => {
     const activar_link = ({isActive}) => `nav-item nav-link ${isActive ? 'active' : ''}`;
-    const {user} = useContext(AuthContext);
+    const {user, logout} = useContext(AuthContext);
     const navigate = useNavigate();
 
     const onLogout = () => {
+        logout();
         navigate('/login', {
             replace: true,
         });
